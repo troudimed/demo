@@ -1,0 +1,45 @@
+demo/target/
+demo/!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+demo/.apt_generated
+demo/.classpath
+demo/.factorypath
+demo/.project
+demo/.settings
+demo/.springBeans
+
+### IntelliJ IDEA ###
+demo/.idea
+demo/*.iws
+demo/*.iml
+demo/*.ipr
+
+### NetBeans ###
+demo/nbproject/private/
+demo/build/
+demo/nbbuild/
+demo/dist/
+demo/nbdist/
+demo/.nb-gradle/
+
+
+#### Front
+
+#user
+demo-front/user/node_modules/
+demo-front/user/bower_components/
+demo-front/user/coverage/
+demo-front/user/.sass-cache/
+demo-front/user/.idea/
+demo-front/user/.tmp/
+demo-front/user/dist/
+
+#admin
+demo-front/admin/node_modules/
+demo-front/admin/bower_components/
+demo-front/admin/coverage/
+demo-front/admin/.sass-cache/
+demo-front/admin/.idea/
+demo-front/admin/.tmp/
+demo-front/admin/dist/

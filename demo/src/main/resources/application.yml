@@ -1,0 +1,22 @@
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/demo
+        name:
+        username: test
+        password: test
+        data : classpath:sql/*.sql
+
+    jpa:
+        database: MYSQL
+        show_sql: true
+        hibernate:
+          ddl-auto : update
+        properties:
+            hibernate.generate_statistics: false
+            hibernate.dialect : org.hibernate.dialect.MySQL5Dialect
+    data:
+        elasticsearch:
+            cluster-name: demo-owish
+            cluster-nodes: 127.0.0.1:9300
+server :
+    port: 8081
